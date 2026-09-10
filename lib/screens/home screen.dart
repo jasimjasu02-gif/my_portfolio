@@ -57,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 AboutSection(key: _aboutKey),
                 SkillsSection(key: _skillsKey),
                 ProjectsSection(key: _projectsKey),
-              //  ExperienceSection(key: _experienceKey),
+                ExperienceSection(key: _experienceKey),
                 ContactSection(key: _contactKey),
                 const Footer(),
               ],

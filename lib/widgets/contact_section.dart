@@ -101,7 +101,7 @@ class ContactSection extends StatelessWidget {
         _ContactInfoItem(
           icon: Icons.location_on,
           title: 'Location',
-          value: 'Kochi, Kerala, India',
+          value: 'Thrissur, Kerala, India',
           isMobile: isMobile,
         ),
         const SizedBox(height: 40),

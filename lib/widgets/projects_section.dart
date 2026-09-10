@@ -24,42 +24,42 @@ final List<Project> _projects = [
   const Project(
     title: 'Futurix Partner Portal',
     description:
-        'A cross-platform mobile portal app for partners featuring real-time business analytics, client management, and automated workflow processing.',
+        'An enterprise mobile app that streamlines referral sales operations with real-time lead tracking, project enquiry management, financial transparency, and commission tracking.',
     technologies: ['React Native', 'Expo', 'TypeScript', 'Redux', 'REST API'],
     gradientColors: [Color(0xFF6366F1), Color(0xFF8B5CF6)],
     icon: Icons.business_center_rounded,
   ),
   const Project(
-    title: 'TrenCart E-Commerce',
-    description:
-        'A feature-rich Flutter shopping application with product catalogs, smart filter & search, cart management, and seamless checkout flow.',
-    technologies: ['Flutter', 'Dart', 'Provider', 'Firebase', 'Payment Gateway'],
-    gradientColors: [Color(0xFF059669), Color(0xFF0D9488)],
-    icon: Icons.shopping_bag_rounded,
-  ),
-  const Project(
-    title: 'Zyfit Gym & Fitness',
-    description:
-        'A feature-rich Flutter fitness app with digital QR check-ins, AI workout generation, real-time class booking, custom progress analytics, and JWT auth.',
-    technologies: ['Flutter', 'Dart', 'REST API', 'JWT Auth', 'Firebase FCM', 'Custom Painter'],
-    gradientColors: [Color(0xFFFF512F), Color(0xFFDD2476)],
-    icon: Icons.fitness_center_rounded,
-  ),
-  const Project(
     title: 'CareLoom Telehealth & RPM',
     description:
-        'A comprehensive Flutter healthcare application for remote patient monitoring, vitals tracking, care plan adherence, fl_chart analytics, and doctor messaging.',
+        'A digital health & telehealth mobile app that optimizes chronic disease management with real-time vital sign logging, fl_chart trend visualization, doctor messaging, and care plans.',
     technologies: ['Flutter', 'Dart', 'fl_chart', 'REST API', 'JWT Auth', 'Telehealth'],
     gradientColors: [Color(0xFF147B6A), Color(0xFF06B6D4)],
     icon: Icons.health_and_safety_rounded,
   ),
   const Project(
-    title: 'Portfolio Website',
+    title: 'Zyfit Gym & Fitness',
     description:
-        'A modern personal portfolio website built with Flutter Web showcasing skills, experience, project showcases, and contact section.',
-    technologies: ['Flutter Web', 'Dart', 'Responsive', 'HTML/CSS'],
-    gradientColors: [Color(0xFF00D9FF), Color(0xFF0066FF)],
-    icon: Icons.web_rounded,
+        'A cross-platform fitness & gym management app built with Flutter and REST APIs delivering personalized AI workout plans, QR attendance tracking, and real-time analytics.',
+    technologies: ['Flutter', 'Dart', 'REST API', 'JWT Auth', 'Firebase FCM', 'Custom Painter'],
+    gradientColors: [Color(0xFFFF512F), Color(0xFFDD2476)],
+    icon: Icons.fitness_center_rounded,
+  ),
+  const Project(
+    title: 'Airbnb Clone (Capstone)',
+    description:
+        'A complete vacation rental booking app featuring property listings, interactive booking workflows, navigation, and form validation across 5+ screens.',
+    technologies: ['Flutter', 'Dart', 'State Management', 'Firebase', 'Clean Arch'],
+    gradientColors: [Color(0xFFFF385C), Color(0xFFE61E4D)],
+    icon: Icons.home_work_rounded,
+  ),
+  const Project(
+    title: 'TrenCart E-Commerce',
+    description:
+        'A feature-rich Flutter shopping application with product catalogs, smart filter & search, cart management, Provider state management, and checkout flow.',
+    technologies: ['Flutter', 'Dart', 'Provider', 'Firebase', 'Payment Gateway'],
+    gradientColors: [Color(0xFF059669), Color(0xFF0D9488)],
+    icon: Icons.shopping_bag_rounded,
   ),
 ];
 

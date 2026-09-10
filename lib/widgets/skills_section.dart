@@ -162,12 +162,15 @@ class Skill {
 }
 
 final List<Skill> _skills = [
-  Skill(name: 'Flutter', icon: Icons.flutter_dash, proficiency: 95),
-  Skill(name: 'Dart', icon: Icons.code, proficiency: 90),
-  Skill(name: 'Firebase', icon: Icons.cloud, proficiency: 85),
-  Skill(name: 'REST API', icon: Icons.api, proficiency: 88),
-  Skill(name: 'State Management', icon: Icons.build, proficiency: 90),
-  Skill(name: 'UI/UX Design', icon: Icons.design_services, proficiency: 82),
-  Skill(name: 'Git', icon: Icons.code_off, proficiency: 85),
-  Skill(name: 'Responsive Design', icon: Icons.devices, proficiency: 92),
+  Skill(name: 'Flutter & Dart', icon: Icons.flutter_dash, proficiency: 95),
+  Skill(name: 'State Management (Provider/Bloc/GetX/Riverpod)', icon: Icons.account_tree_rounded, proficiency: 92),
+  Skill(name: 'REST API & JSON', icon: Icons.api_rounded, proficiency: 90),
+  Skill(name: 'Firebase Services', icon: Icons.cloud_done_rounded, proficiency: 88),
+  Skill(name: 'Local DB (SQLite / Hive)', icon: Icons.storage_rounded, proficiency: 85),
+  Skill(name: 'MVVM & Clean Architecture', icon: Icons.architecture_rounded, proficiency: 90),
+  Skill(name: 'Git & GitHub Workflow', icon: Icons.code_rounded, proficiency: 88),
+  Skill(name: 'Unit & Widget Testing', icon: Icons.bug_report_rounded, proficiency: 82),
+  Skill(name: 'CI/CD & App Deployment', icon: Icons.rocket_launch_rounded, proficiency: 85),
+  Skill(name: 'Native Platform Channels', icon: Icons.developer_mode_rounded, proficiency: 80),
+  Skill(name: 'Responsive UI/UX Design', icon: Icons.devices_rounded, proficiency: 92),
 ];
