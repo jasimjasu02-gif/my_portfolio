@@ -106,7 +106,7 @@ class AboutSection extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Flutter Developer & Mobile App Engineer',
+          'Flutter Developer & UI/UX Enthusiast',
           style: TextStyle(
             fontSize: isMobile ? 20 : 28,
             fontWeight: FontWeight.bold,
@@ -115,40 +115,21 @@ class AboutSection extends StatelessWidget {
         ),
         const SizedBox(height: 20),
         Text(
-          'Flutter Developer with 6 months of hands-on industry experience building production mobile applications using Dart, Flutter, and MVVM/clean architecture.',
+          'I\'m a passionate Flutter developer with expertise in building cross-platform mobile applications. I love creating intuitive and visually appealing user interfaces that provide exceptional user experiences.',
           style: TextStyle(
-            fontSize: isMobile ? 15 : 17,
-            color: const Color(0xFFD0D0D0),
-            height: 1.7,
-          ),
-        ),
-        const SizedBox(height: 15),
-        Text(
-          'Skilled in state management (Provider, Bloc, GetX, Riverpod), REST API integration, Firebase, local storage (SQLite, Hive), unit/widget testing, and CI/CD workflows.',
-          style: TextStyle(
-            fontSize: isMobile ? 15 : 17,
+            fontSize: isMobile ? 16 : 18,
             color: const Color(0xFFB0B0B0),
-            height: 1.7,
+            height: 1.8,
           ),
         ),
-        const SizedBox(height: 25),
-        Wrap(
-          spacing: 30,
-          runSpacing: 20,
-          children: const [
-            _StatItem(
-              number: '6 Months',
-              label: 'Industry Experience',
-            ),
-            _StatItem(
-              number: '4+',
-              label: 'State Mgmt Stack',
-            ),
-            _StatItem(
-              number: '4+',
-              label: 'Production Apps',
-            ),
-          ],
+        const SizedBox(height: 20),
+        Text(
+          'With a strong foundation in Dart and Flutter framework, I specialize in developing scalable and performant mobile applications. I\'m always eager to learn new technologies and best practices to enhance my skills.',
+          style: TextStyle(
+            fontSize: isMobile ? 16 : 18,
+            color: const Color(0xFFB0B0B0),
+            height: 1.8,
+          ),
         ),
       ],
     );
